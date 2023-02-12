@@ -1,0 +1,19 @@
+.side-nav-bar {
+  @apply w-16 min-h-screen bg-blue700 rounded-tr-[40px] rounded-br-[40px] pt-10 px-[10px] pb-6 absolute left-0 top-0;
+}
+
+.menu-item {
+  @apply w-11 h-10 rounded-xl flex items-center justify-center hover:bg-blue600;
+}
+
+.active {
+  @apply bg-blue600;
+}
+
+.dash-user-img {
+  @apply rounded-[50%] overflow-hidden;
+}
+
+.dash-user-img img {
+  @apply w-auto h-auto object-contain;
+}

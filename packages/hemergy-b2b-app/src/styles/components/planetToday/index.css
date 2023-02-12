@@ -1,0 +1,15 @@
+@import "./investingTab.css";
+.planet-today-sectiion {
+  @apply w-full px-[24px] pb-[100px] font-Poppins;
+}
+
+.planet-about {
+  @apply max-w-[638px] mx-auto text-center flex flex-col items-center mb-[87px];
+}
+
+.planet-heading {
+  @apply font-semibold text-[28px] lg:text-[48px] leading-[34px] lg:leading-[62px] text-textcolor mb-[12px];
+}
+.planet-para {
+  @apply w-full sm:w-[442px] font-normal text-[18px] lg:text-[20px] leading-[28px] lg:leading-[30px] text-textcolor mb-[48px];
+}

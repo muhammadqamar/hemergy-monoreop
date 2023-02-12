@@ -1,0 +1,42 @@
+{
+  "name": "@hemergy/ui-kit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@wagmi/core": "^0.9.5",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "@web3-react/walletlink-connector": "^6.2.14",
+    "@web3modal/ethereum": "^2.1.1",
+    "@web3modal/html": "^2.1.1",
+    "@web3modal/react": "^2.1.1",
+    "axios": "^1.3.2",
+    "ethers": "5.7.2",
+    "formik": "^2.2.9",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.1",
+    "slick-carousel": "^1.8.1",
+    "wagmi": "^0.11.5",
+    "web3": "1.7.4",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}

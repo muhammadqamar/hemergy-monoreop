@@ -1,0 +1,60 @@
+.dashboard-container {
+  @apply w-auto h-screen py-8 pr-8  pl-24 bg-cardbg;
+}
+
+.project-detail {
+  @apply w-auto h-[869px] flex rounded-[40px] bg-white shadow-mdshadow overflow-hidden;
+}
+
+.project-detail .detail-img {
+  @apply w-[352px] flex-shrink-0 h-full p-4 relative;
+}
+
+.project-detail .detail-img .detail-banner-img {
+  @apply w-full h-full object-cover absolute top-0 left-0;
+}
+
+.project-detail .project-detail-about {
+  @apply w-full flex flex-col gap-6 p-8;
+}
+
+.project-detail-user {
+  @apply w-full flex items-start gap-3;
+}
+.project-detail-user .detail-user-img {
+  @apply w-[54px] h-[54px] rounded-xl object-contain;
+}
+
+.user-company {
+  @apply w-[82px] p-1 h-7 rounded-lg bg-[#f2f2f2] overflow-hidden;
+}
+.user-company img {
+  @apply w-auto h-auto object-contain;
+}
+
+.tokens-wrapper {
+  @apply w-[344px] flex-shrink-0 bg-blue700 p-8 rounded-[40px];
+}
+
+.available-token {
+  @apply flex items-center justify-center gap-2;
+}
+
+.power-box {
+  @apply px-[11px] py-6 flex items-center flex-col gap-2 bg-blue600 rounded-xl;
+}
+
+.year-box {
+  @apply w-full p-6 bg-blue400 rounded-xl;
+}
+
+.year-range input[type="range"] {
+  @apply bg-textcolor;
+}
+
+.year-range input[type="range"]::-webkit-slider-thumb {
+  @apply bg-textcolor;
+}
+.what-token {
+  @apply w-full p-4  bg-blue900 rounded-xl;
+}

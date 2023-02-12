@@ -1,0 +1,43 @@
+.contribute-main {
+  @apply w-full h-auto relative pb-[452px];
+}
+.contribute-section {
+  @apply max-w-[1440px] mx-auto pt-[14px] px-[24px] md:px-[35px] font-Poppins;
+}
+
+.contribute-heading {
+  @apply flex flex-col sm:flex-row gap-4 sm:gap-[1px] mb-40;
+}
+
+.heart-1 {
+  @apply h-fit object-contain;
+  width: clamp(84px, 22vw, 366px);
+}
+.heart-2 {
+  @apply h-fit object-contain ml-auto;
+  width: clamp(84px, 22vw, 343px);
+}
+
+.con-heading {
+  @apply w-full md:w-[647px] text-textcolor font-normal text-[24px] md:text-[32px] lg:text-[40px] leading-[34px] md:leading-[48px] lg:leading-[60px] text-center;
+}
+
+.contribute-cards {
+  @apply flex items-center justify-center flex-wrap gap-[64px];
+}
+.contribute-cards .contribute-card {
+  @apply w-[296px] flex flex-col items-center gap-6 text-center;
+}
+
+.contribute-cards .contribute-card .con-card-heading {
+  @apply font-semibold text-[32px] leading-[48px] text-textcolor m-0;
+}
+
+.con-card-para {
+  @apply font-normal text-[20px] leading-[30px] text-textcolor m-0;
+}
+
+.wather-haf-white-bg {
+  @apply w-full h-[233px] bg-repeat bg-center left-0 bg-auto absolute bottom-[-3px];
+  background-image: url("/images/Intersect2.svg");
+}

@@ -1,0 +1,3 @@
+.card-area {
+  @apply w-fit min-h-screen pt-12 pr-6 pb-8 pl-28  rounded-tr-[60px] rounded-br-[60px] bg-cardbg;
+}

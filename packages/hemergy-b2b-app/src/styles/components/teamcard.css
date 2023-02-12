@@ -1,0 +1,6 @@
+.team-card {
+    @apply w-[288px] h-auto p-[24px] flex flex-col gap-6 bg-white shadow-smallshadow sm:shadow-mainshadow rounded-[20px] mx-[8px] sm:mx-[15px];
+}
+.team-card .card-body {
+    @apply flex justify-center flex-col items-center;
+}

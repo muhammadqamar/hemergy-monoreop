@@ -1,0 +1,11 @@
+.api-card-box {
+  @apply w-full md:w-[735px] flex flex-col items-center h-auto mx-auto pt-[56px] px-[24px] pb-[48px] text-center bg-cardbg rounded-3xl shadow-smallshadow sm:shadow-mainshadow;
+}
+
+.api-heading {
+  @apply font-semibold text-[28px] lg:text-[40px] leading-[32px] lg:leading-[48px] text-textcolor my-[12px];
+}
+
+.api-about {
+  @apply w-full md:w-[499px] font-normal text-[20px] leading-[30px] text-textcolor mb-[32px];
+}

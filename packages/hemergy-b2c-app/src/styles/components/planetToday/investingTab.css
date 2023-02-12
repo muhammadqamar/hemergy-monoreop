@@ -1,0 +1,31 @@
+.investing-tab-section {
+  @apply max-w-[767px] mx-auto flex items-start flex-col gap-4 relative pb-[110px];
+}
+.user-tabs {
+  @apply flex flex-col gap-4 items-start md:items-center;
+}
+.investing-tab-section .user-tabs .user-tab-card {
+  @apply w-[272px] h-auto rounded-xl bg-white p-[24px] flex items-center gap-2 hover:shadow-smallshadow cursor-pointer mb-[18px] md:mb-0;
+}
+.investing-tab-section .user-tabs .user-tab-card.active {
+  @apply shadow-smallshadow;
+}
+.investing-tab-section .user-tabs .user-tab-card .user-img {
+  @apply w-[40px] h-[40px] rounded-xl object-contain;
+}
+.investing-tab-section .user-tabs .user-tab-card .user-detail .user-tab-name {
+  @apply font-semibold text-sm text-textcolor font-Inter;
+}
+.investing-tab-section .user-tabs .user-tab-card .user-detail .user-tab-cate {
+  @apply font-medium text-xs leading-[18px] text-[#92A0FF] font-Poppins;
+}
+
+.investing-tab-section .user-tab-about {
+  @apply w-full sm:w-[455px] h-auto p-[16px] md:absolute md:top-0 md:right-0;
+}
+.investing-tab-section .user-tab-about .tab-about-heading {
+  @apply font-semibold text-xl text-textcolor mb-[4px];
+}
+.investing-tab-section .user-tab-about .user-tab-about-para {
+  @apply font-normal text-base text-textcolor mb-[4px] mt-[24px] font-Inter;
+}

@@ -1,0 +1,23 @@
+.nav-container {
+  @apply w-full h-auto absolute top-0 left-0 z-10;
+}
+
+.main-nav-wrapper {
+  @apply max-w-[1440px] flex justify-between items-center mt-[40px] mx-auto px-[24px] md:px-[40px]  lg:px-[80px];
+}
+
+.nav-logo {
+  @apply w-auto h-auto;
+}
+
+.nav-links-box {
+  @apply hidden lg:flex gap-[32px] items-center;
+}
+
+.nav-link {
+  @apply font-medium text-[16px] leading-6 text-white font-Inter;
+}
+
+.nav-reginter {
+  @apply hidden lg:flex items-center gap-[24px] font-Inter;
+}

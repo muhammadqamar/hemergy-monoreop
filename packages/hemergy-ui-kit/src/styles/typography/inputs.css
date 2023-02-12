@@ -1,0 +1,15 @@
+.input-box {
+  @apply w-full flex flex-col gap-1;
+}
+
+.input-box .input-field {
+  @apply w-full  flex items-center justify-between gap-2 rounded-xl text-textblack bg-garbg px-3 py-2;
+}
+
+.input-box .input-field .input {
+  @apply border-none outline-none w-full h-6 p-0 m-0 bg-garbg;
+}
+
+.checkbox {
+  @apply w-6 h-6;
+}

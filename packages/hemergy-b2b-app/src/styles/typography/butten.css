@@ -1,0 +1,26 @@
+.btn {
+  @apply w-max flex items-center justify-center bg-[#F9705A] rounded-xl text-white whitespace-pre;
+}
+
+.Primary {
+  @apply font-medium text-2xl  px-6 py-[10px] font-Poppins;
+}
+.secondary {
+  @apply font-medium text-base px-4 py-2 font-Inter;
+}
+
+.btn-w {
+  @apply w-full flex items-center justify-center font-Inter bg-[#6B7EFD] rounded-xl text-white p-2 font-medium text-base whitespace-pre;
+}
+
+.blue {
+  @apply w-full bg-textcolor !important;
+}
+
+.btn-border {
+  @apply w-full border border-solid  border-textcolor rounded-xl bg-white text-textcolor whitespace-pre !important;
+}
+
+.fit-width {
+  @apply w-fit mx-auto !important;
+}

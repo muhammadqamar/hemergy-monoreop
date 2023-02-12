@@ -1,0 +1,36 @@
+@import "./projectDetails.css";
+
+.main-loaction {
+  @apply flex items-start bg-[#E5E5E5];
+}
+
+.main-loaction .map-box {
+  @apply h-screen flex flex-col items-center p-6 overflow-y-auto;
+}
+
+.main-loaction .map-box .map {
+  @apply w-auto;
+}
+
+.map-cards {
+  @apply flex flex-wrap gap-[15.5px];
+}
+
+.map-opction {
+  @apply flex justify-start gap-2 mt-3 mb-8;
+}
+
+.map-opction .map-field {
+  @apply cursor-pointer w-8 h-8 flex justify-between items-center bg-cardbg rounded-xl p-[6px];
+}
+.map-opction .input-field {
+  @apply flex justify-between items-center gap-2 py-[6px] pl-3 pr-2 bg-cardbg rounded-xl;
+}
+
+.map-opction .input-field .input {
+  @apply w-[361px]  h-auto bg-[transparent] border-none outline-none;
+}
+
+.map-opction .input-field select {
+  @apply w-[166px] h-auto bg-[transparent] border-none outline-none;
+}

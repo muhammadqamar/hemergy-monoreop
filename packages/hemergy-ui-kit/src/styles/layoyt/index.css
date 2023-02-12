@@ -1,0 +1,15 @@
+@import "./navbar.css";
+@import "./footer.css";
+@import "./sideBar.css";
+
+* {
+  @apply box-border m-0 p-0;
+}
+
+.max-container {
+  @apply w-full;
+}
+
+.container {
+  @apply max-w-[1440px] mx-auto;
+}
